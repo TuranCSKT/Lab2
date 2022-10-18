@@ -37,14 +37,12 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnClick(View view) {
         String phrase = this.etInput.getText().toString();
 
-        if (TextUtils.isEmpty(phrase))
-        {
+        if (TextUtils.isEmpty(phrase)) {
             Toast.makeText(MainActivity.this,
                     "Empty field not allowed!",
                     Toast.LENGTH_SHORT).show();
         }
-        else
-        {
+        else {
             Toast.makeText(MainActivity.this,
                     "Proceed..",
                     Toast.LENGTH_SHORT).show();
